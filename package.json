@@ -31,6 +31,9 @@
     "typescript": "5.8.2",
     "wrangler": "^3.111.0"
   },
+  "resolutions": {
+    "ohash": "1.1.5"
+  },
   "packageManager": "pnpm@10.5.2",
   "pnpm": {
     "onlyBuiltDependencies": [

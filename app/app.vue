@@ -67,9 +67,9 @@ const items = [
         </h3>
         <UButton
           v-if="!loggedIn"
-          to="/api/auth/github"
-          icon="i-simple-icons-github"
-          label="Login with GitHub"
+          to="/api/auth/anonymous"
+          icon="i-simple-icons-playwright"
+          label="Anonymous Login"
           color="black"
           size="xs"
           external
